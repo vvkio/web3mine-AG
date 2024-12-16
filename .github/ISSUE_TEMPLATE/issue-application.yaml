@@ -35,7 +35,7 @@ body:
       required: true
   - type: input
     attributes:
-      label: If you have a website, please list it here:
+      label: ""If you have a website, please list it here:""
     validations:
       required: false
   - type: input
