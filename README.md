@@ -21,13 +21,17 @@ The datacap distributed via the web3mine allocator will be open to all clients w
 
 The ease of using Ramo Computer lowers the barrier to entry which enables a broader range of storage providers to compete and ultimately reduce costs for users of Ramo Cloud services. In addition, the decentralized nature of the network ensures resilience and avoids vendor lock-in.
 
+___
+
+### Datacap Abuse Prevention
+The Filecoin Plus program defines quality data is all content that meets local regulatory requirements and that the data owner wants to see on the network, including private/encrypted data. To verify that somebody wants to store data, web3mine AG requires clients to pay for storage capacity. 
+
+web3mine AG keeps records (e.g., purchase receipts and similar) of Ramo Cloud Storage deals, including (where possible) a list of storage clients a client might resell their storage capacity to. We also encourage the community to purchase storage capacity from us to test the proper functioning of the service.
 ____
 
 ### Using Ramo Cloud Storage
 To get started with Ramo Cloud Storage, begin by selecting a provider that aligns with your specific needs, including factors like location, cost, and other preferences. If you have no specific preferences, visit [use.ramo.computer](https://use.ramo.computer/) to get started. You can also purchase a bucket at [use.ramo.io](https://use.ramo.io/).
 
 In line with other cloud storage solutions, Ramo Cloud Storage providers typically charge your based on the volume and duration (e.g., USD/TB-month) for which you want to store your data and the volume of data you would like to retrieve (e.g., USD/TB) and transfer (e.g., USD/TB). 
-
-Use this [cost calculator](https://docs.google.com/spreadsheets/d/1Q5Sdi6t3Gh4lzpLvrIO4_dE1-izNcorSQtPotrNwSKE/edit?gid=0#gid=0) to create initial costs estimates for your storage needs. Note that different Ramo Cloud Storage providers may offer different pricing options and features. Typically, prices are a fraction of what conventional providers charge for similar cloud storage services.
 
 Once you have selected your storage provider(s), download the Ramo Cloud Storage app (ramo-cli), a simple command-line interface for managing buckets and storage on the storage infrastructure of your provider(s) using the [Ramo S3 API](https://docs.ramo.io/use-cloud-services/ramo-cloud-storage/using-ramo-api).
