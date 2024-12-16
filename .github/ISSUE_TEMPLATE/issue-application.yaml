@@ -60,7 +60,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Optional: What data is being stored?
+      label: "Optional: What data is being stored?"
       render: text
     validations:
       required: false
