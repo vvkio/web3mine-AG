@@ -29,8 +29,8 @@ body:
     attributes:
       label: Are you using Ramo Cloud Storage to store data?
       options:
-        - Yes 
-        - No
+        - "Yes" 
+        - "No"
     validations:
       required: true
   - type: input
@@ -86,7 +86,7 @@ body:
       label: Is this data in .car-format already?
       description: Data uploaded to Ramo Cloud Storage needs to be formatted in a specific way (i.e., .car) in order for the protocol to be able to generate the replication and durability proofs.
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
