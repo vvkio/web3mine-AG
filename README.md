@@ -17,16 +17,16 @@ ___
 ### Eligible Datacap Applications
 This purpose of this allocator is to provide datacap to paying users of [Ramo Cloud Storage](https://docs.ramo.io/use-cloud-services/ramo-cloud-storage/getting-started). The details of this allocator pathway were initially described in [application 1067](https://github.com/filecoin-project/notary-governance/issues/1067).
 
-The datacap distributed via the web3mine allocator will be open to all clients who are paying to store data with storage providers that are supported by web3mine's Ramo Network. Anyone can provide storage on the Ramo Network by downloading and running [Ramo Computer](https://www.ramo.computer/) to begin monetizing their equipment.
+The datacap distributed via the web3mine allocator will be open to all clients who are paying to store data with storage providers that are supported by web3mine's Ramo Network. Anyone can provide storage on the Ramo Network by downloading and running [Ramo Computer](https://www.ramo.computer/) to begin monetizing their equipment. 
 
 The ease of using Ramo Computer lowers the barrier to entry which enables a broader range of storage providers to compete and ultimately reduce costs for users of Ramo Cloud services. In addition, the decentralized nature of the network ensures resilience and avoids vendor lock-in.
 
 ___
 
 ### Datacap Abuse Prevention
-The Filecoin Plus program defines quality data is all content that meets local regulatory requirements and that the data owner wants to see on the network, including private/encrypted data. To verify that somebody wants to store data, web3mine AG requires clients to pay for storage capacity. 
+The Filecoin Plus program defines quality data is all content that meets local regulatory requirements and that the data owner wants to see on the network, including private/encrypted data. To verify that somebody wants to store data, web3mine AG requires clients to pay for storage capacity. Information about specific datacap allocations remains private since it may reveal information about pricing, client details and location that Ramo Cloud Storage users prefer to keep private.
 
-web3mine AG keeps records (e.g., purchase receipts and similar) of Ramo Cloud Storage deals, including (where possible) a list of storage clients a client might resell their storage capacity to. We also encourage the community to purchase storage capacity from us to test the proper functioning of the service.
+web3mine AG keeps records (e.g., purchase receipts and similar) of Ramo Cloud Storage deals, including (where possible) a list of storage clients a client might resell their storage capacity to. These records may be maede available to people signing non-disclosure agreements. Please contact us for more information. web3mine AG also commits to publishing high level summaries about Ramo Cloud Storage revenue backed by 3rd party payment provider (e.g., Stripe) receipts. Finally, web3mine AG encourages the community to purchase storage capacity from us to test the proper functioning of the service.
 ____
 
 ### Using Ramo Cloud Storage
