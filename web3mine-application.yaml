@@ -1,0 +1,55 @@
+name: web3mine AG Datacap Application
+description: Use this application to request a DataCap allocation from web3mine AG
+title: "[DataCap Application] <Organization> - <Project Name>"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # web3mine AG Datacap Application for storage on the Ramo Network
+        For eligibility details, please refer to the original application for this allocator pathway or explore the .readme in this repo.
+  - type: markdown
+    attributes:
+      value: |
+        ## Application
+  - type: input
+    attributes:
+      label: Name of entity applying for Datacap
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: What is your role related to the dataset?
+      description: Ramo Cloud Storage can be used by individual entities or by aggregators who intend to resell the storage capacity to 3rd parties. For example, an aggregator may create a wrapper around Ramo Cloud Storage that is specifically designed for a particular use case or target audience (e.g., AI training data storage). 
+      options:
+        - Storing data for myself 
+        - Storing data for a 3rd party
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Are you using Ramo Cloud Storage to store data?
+      options:
+        - "Yes" 
+        - "No"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Total amount of DataCap being requested 
+      description: Must be a number and unit (e.g 100TiB, 600.46GiB, 1.5PiB)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: What is the on-chain address for the Datacap allocation?
+      description: Make sure the address exists on the chain. This cannot be changed once input here. 
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Please confirm that a party that is unaffiliated with web3mine AG has paid for storing this data using Ramo Cloud Storage?  
+      description: Check this box if a client has paid for storing data using Ramo Cloud Storage (e.g., by navigating to use.ramo.computer and purchasing capacity).
+      options:
+        - label: "I confirm"
+    validations:
+      required: true
